@@ -25,7 +25,7 @@ jobs:
           settings-path: '${{ github.workspace }}'
 
       - name: job2-Build with Maven
-        run: mvn clean package
+        run: cd initial && mvn clean package
 
       #- name: Publish to GitHub Packages Apache Maven
         #run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
