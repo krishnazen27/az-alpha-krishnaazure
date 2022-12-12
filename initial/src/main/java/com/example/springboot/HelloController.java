@@ -8,7 +8,7 @@ public class HelloController {
 
 	@GetMapping("/")
 	public String index() {
-		return "Greetings from Spring Boot!..Welcome to Azure DevOps - Git+GitHub+Maven+Az Storage+Jenkins!!!!!";
+		return "Greetings from Spring Boot!..Welcome to Azure DevOps - Git+GitHub+Maven+Az Storage+Jenkins +Terraform !!!!!";
 	}
 
 }
